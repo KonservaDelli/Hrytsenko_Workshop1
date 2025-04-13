@@ -93,20 +93,28 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /*turning on the green LED*/
 	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
 	  HAL_Delay(200);
+	  /*turning on the orange LED*/
 	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);
 	  HAL_Delay(200);
+	  /*turning on the red LED*/
 	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, GPIO_PIN_SET);
 	  HAL_Delay(200);
+	  /*turning on the blue LED*/
 	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_SET);
 	  HAL_Delay(200);
+	  /*turn off the green LED*/
 	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);
 	  HAL_Delay(200);
+	  /*turn off the orange LED*/
 	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);
 	  HAL_Delay(200);
+	  /*turn off the red LED*/
 	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, GPIO_PIN_RESET);
 	  HAL_Delay(200);
+	  /*turn off the blue LED*/
 	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);
 	  HAL_Delay(200);
 
